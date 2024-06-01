@@ -20,3 +20,7 @@ print(list)
 lista_2 = [i for i in tuple_1] ##Convierto tupla en lista con lists comprehensions
 
 print("Lista 2", lista_2)
+
+##Podemos recorrer una tupla igual que una lista
+for fruta in tuple_1:
+    print(fruta)
