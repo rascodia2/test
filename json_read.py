@@ -11,3 +11,4 @@ with open('example.json','r') as json_file:
         print("Le achuntaste!")
     else:
         print("NO Le achuntaste!")
+    json_file.close()
